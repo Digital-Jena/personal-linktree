@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung - Julius Bruch</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Übernehmen der Orbitron-Schriftart aus dem Hauptprojekt */
+        @font-face {
+            font-family: 'Orbitron';
+            src: url('/fonts/orbitron.woff2') format('woff2');
+            font-weight: 400 900;
+            font-display: swap;
+        }
+
+        body {
+            font-family: 'Orbitron', monospace;
+            line-height: 1.6;
+        }
+
+        /* Übernahme des Hintergrundverlaufs für konsistentes Design */
+        .gradient-bg {
+            background: linear-gradient(135deg, #4A4A4A 0%, #6B5A42 25%, #5A4B41 50%, #4D3A2F 75%, #3D2E26 100%);
+            min-height: 100vh; /* Stellt sicher, dass der Verlauf die gesamte Seite bedeckt */
+        }
+
+        /* Stil für Hauptüberschriften */
+        h2 {
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid rgba(34, 197, 94, 0.5); /* Grüner Akzent */
+            margin-top: 2rem;
+        }
+
+        /* Stil für Abschnitte */
+        .data-section {
+            padding: 1.5rem;
+            background-color: rgba(0, 0, 0, 0.2); /* Leicht durchscheinend */
+            border-radius: 0.75rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(5px);
+        }
+    </style>
+</head>
+<body class="gradient-bg text-gray-200">
+
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-extrabold text-white text-glow uppercase tracking-wider mb-2" style="text-shadow: 0 0 20px rgba(34, 197, 94, 0.6);">Datenschutzerklärung</h1>
+            <p class="text-lg text-green-400">Stand: November 2025</p>
+            <a href="index.html" class="text-sm text-green-300 hover:text-white transition-colors block mt-4">Zurück zur Startseite</a>
+        </header>
+
+        <div class="data-section">
+            <h2 class="text-2xl font-bold text-white mb-4">Verantwortlicher</h2>
+            <p><strong>Julius Bruch</strong><br>
+            [Ihre vollständige Adresse hier einfügen]<br>
+            [Ihre E-Mail-Adresse hier einfügen, z.B. contact@ihredomain.de]</p>
+            <p class="text-sm mt-2 text-yellow-300">⚠️ **Wichtiger Hinweis:** Diese Angaben dienen der Erfüllung Ihrer Impressumspflicht. **Bitte unbedingt korrekte Angaben ergänzen!**</p>
+        </div>
+
+        <div class="data-section">
+            <h2 class="text-2xl font-bold text-white mb-4">Hosting und Server-Logfiles (GitHub Pages)</h2>
+            <p>Diese Website wird über **GitHub Pages** gehostet, einem Dienst von **GitHub, Inc.** (88 Colin P Kelly Jr St, San Francisco, CA 94107, USA).</p>
+            <ul class="list-disc list-inside ml-4 mt-3">
+                <li>**Verarbeitete Daten:** Beim Aufruf unserer Website erfasst GitHub automatisch Informationen in sogenannten **Server-Logfiles**. Dazu gehören: der Name der abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs, übertragene Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp und -version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite) und die **IP-Adresse** des Nutzers.</li>
+                <li>**Zweck der Verarbeitung:** Diese Daten dienen der Gewährleistung eines reibungslosen Verbindungsaufbaus, der Systemsicherheit und der statistischen Auswertung.</li>
+                <li>**Rechtsgrundlage:** Unser berechtigtes Interesse gemäß Art. 6 Abs. 1 lit. f DSGVO.</li>
+                <li>**Datenübermittlung in die USA:** Da GitHub ein US-Unternehmen ist, erfolgt eine Verarbeitung der Daten in den USA. Die Übermittlung stützt sich auf die **EU-Standardvertragsklauseln (SCCs)**.</li>
+                <li>**Datenschutzhinweis GitHub:** Weitere Informationen finden Sie in der <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer" class="text-green-400 hover:text-white underline">Datenschutzerklärung von GitHub</a>.</li>
+            </ul>
+        </div>
+
+        <div class="data-section">
+            <h2 class="text-2xl font-bold text-white mb-4">Einbindung Externer Ressourcen (CDN, Cloudflare)</h2>
+            <p>Zur Optimierung und schnellen Bereitstellung der Website nutzen wir folgende externe Dienste, wodurch Ihre IP-Adresse und Browser-Informationen an Dritte übermittelt werden:</p>
+            
+            <h3 class="text-xl font-semibold mt-4 mb-2">2.1 Content Delivery Network (CDN) - Tailwind CSS</h3>
+            <ul class="list-disc list-inside ml-4">
+                <li>**Dienst:** **Tailwind CSS CDN** (vermutlich über Dienste wie Cloudflare oder CDNJS).</li>
+                <li>**Verarbeitete Daten:** IP-Adresse, Datum des Zugriffs.</li>
+                <li>**Zweck:** Bereitstellung von Stylesheets und Optimierung der Ladegeschwindigkeit.</li>
+                <li>**Rechtsgrundlage:** Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO) an einem ansprechenden und effizienten Auftritt.</li>
+            </ul>
+
+            <h3 class="text-xl font-semibold mt-4 mb-2">2.2 Cloudflare "Challenge Platform" Skript</h3>
+            <ul class="list-disc list-inside ml-4">
+                <li>**Dienst:** **Cloudflare, Inc.** (101 Townsend St, San Francisco, CA 94107, USA).</li>
+                <li>**Ihre Code-Analyse:** Das in Ihrem Code gefundene `<script>`-Element wird von Cloudflare zur Durchführung von Sicherheits-Checks (wie "Bot-Detection" oder DDoS-Schutz) eingefügt.</li>
+                <li>**Verarbeitete Daten:** IP-Adresse, Browser-Metadaten, Security-Token (`__CF$cv$params` etc.).</li>
+                <li>**Zweck:** Schutz der Website vor Angriffen und Bots.</li>
+                <li>**Rechtsgrundlage:** Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO) an der Sicherheit der Website.</li>
+                <li>**Datenübermittlung:** Übermittlung in die USA auf Basis der **EU-Standardvertragsklauseln (SCCs)**.</li>
+            </ul>
+        </div>
+
+        <div class="data-section">
+            <h2 class="text-2xl font-bold text-white mb-4">Eigene Ressourcen (Lokale Schriftarten)</h2>
+            <p>Wir verwenden die Schriftart **'Orbitron'**, die lokal auf unserem Webspace unter <code>/fonts/orbitron.woff2</code> gespeichert ist.</p>
+            <ul class="list-disc list-inside ml-4 mt-3">
+                <li>**Datenschutzvorteil:** Es erfolgt **keine Verbindung zu externen Servern** (wie Google Fonts). Dadurch werden keine Daten des Nutzers (insbesondere die IP-Adresse) an Dritte zur Schriftartdarstellung übermittelt.</li>
+                <li>**Rechtsgrundlage:** Keine Erhebung von personenbezogenen Daten, daher keine spezielle Rechtsgrundlage nötig.</li>
+            </ul>
+        </div>
+
+        <div class="data-section">
+            <h2 class="text-2xl font-bold text-white mb-4">Weiterleitung zu externen Social Media Plattformen</h2>
+            <p>Auf unserer Link-Seite finden Sie Verlinkungen (Hyperlinks) zu folgenden externen Social Media Plattformen. Es handelt sich hierbei um reine **statische Links** (keine "Social Plugins" wie Like-Buttons).</p>
+            <ul class="list-disc list-inside ml-4 mt-3">
+                <li>Instagram (Meta Platforms Ireland Limited)</li>
+                <li>YouTube (Google Ireland Limited)</li>
+                <li>Spotify (Spotify AB)</li>
+                <li>LinkedIn (LinkedIn Ireland Unlimited Company)</li>
+            </ul>
+            <p class="mt-3">Erst wenn Sie auf einen dieser Links klicken, werden Sie auf die Seite des jeweiligen Anbieters weitergeleitet. **Ab diesem Zeitpunkt** gelten die Datenschutzbestimmungen und Nutzungsbedingungen des jeweiligen Anbieters. Es werden in diesem Moment keine Daten von unserer Website an diese Dienste übermittelt.</p>
+        </div>
+
+        <div class="data-section">
+            <h2 class="text-2xl font-bold text-white mb-4">Ihre Rechte als betroffene Person (DSGVO)</h2>
+            <p>Sie haben jederzeit das Recht auf Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16 DSGVO), Löschung (Art. 17 DSGVO), Einschränkung der Verarbeitung (Art. 18 DSGVO), Widerspruch gegen die Verarbeitung (Art. 21 DSGVO) sowie das Recht auf Datenübertragbarkeit (Art. 20 DSGVO).</p>
+            <p class="mt-3">Wenden Sie sich zur Geltendmachung Ihrer Rechte bitte an die oben genannte Kontaktadresse.</p>
+        </div>
+
+        <footer class="text-center mt-10 text-sm text-gray-400">
+            <p>Diese Datenschutzerklärung wurde mit größter Sorgfalt erstellt. Sie dient als Muster und muss ggf. von einem Rechtsanwalt auf Ihre spezifische Situation überprüft werden.</p>
+        </footer>
+
+    </div>
+</body>
+</html>
